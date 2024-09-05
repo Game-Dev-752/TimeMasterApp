@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch4jConfig>
+  <dontWrapJar>false</dontWrapJar>
+  <headerType>gui</headerType>
+  <jar>C:\Users\darwi\OneDrive\Desktop\games_and_other_stuff\2\TimeMasterApp\TimeMasterApp\TimeMasterApp.jar</jar>
+  <outfile>C:\Users\darwi\OneDrive\Desktop\games_and_other_stuff\2\TimeMasterApp\TimeMasterApp\releases\TimeMasterApp.exe</outfile>
+  <errTitle></errTitle>
+  <cmdLine></cmdLine>
+  <chdir>.</chdir>
+  <priority>normal</priority>
+  <downloadUrl></downloadUrl>
+  <supportUrl></supportUrl>
+  <stayAlive>false</stayAlive>
+  <restartOnCrash>false</restartOnCrash>
+  <manifest>C:\Users\darwi\OneDrive\Desktop\games_and_other_stuff\2\TimeMasterApp\TimeMasterApp\manifest\manifest.manifest</manifest>
+  <icon>C:\Users\darwi\OneDrive\Desktop\games_and_other_stuff\2\TimeMasterApp\TimeMasterApp\sprites\clock.ico</icon>
+  <jre>
+    <path>%JAVA_HOME%;%PATH%</path>
+    <requiresJdk>false</requiresJdk>
+    <requires64Bit>false</requires64Bit>
+    <minVersion></minVersion>
+    <maxVersion></maxVersion>
+  </jre>
+</launch4jConfig>

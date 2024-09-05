@@ -1,0 +1,69 @@
+TimeMasterApp Run Help
+
+Overview
+
+TimeMasterApp provides a range of tools including a clock, stopwatch, and timer. You can run the application in different environments depending on your operating system. Below are details on how to use the available versions of TimeMasterApp.
+
+Available Versions
+
+Windows Version
+
+File: TimeMasterApp.exe
+
+Description: This is the native Windows executable version of TimeMasterApp. It does not require Java to be installed separately.
+
+How to Use:
+1. Double-click the `TimeMasterApp.exe` file to launch the application.
+2. The application will start with the default user interface.
+3. Use the menu and buttons to access different features: Clock, Stopwatch, and Timer.
+
+Java Version
+
+File: TimeMasterApp.jar
+
+Description: This is the Java archive version of TimeMasterApp. It requires Java Runtime Environment (JRE) to be installed on your system.
+
+How to Use:
+1. Make sure you have Java Runtime Environment (JRE) version 11 or later installed.
+2. Open a command prompt or terminal window.
+3. Navigate to the directory where the `TimeMasterApp.jar` file is located.
+4. Run the following command:
+
+java -jar TimeMasterApp.jar
+
+The application will start with the default user interface.
+Use the menu and buttons to access different features: Clock, Stopwatch, and Timer.
+Linux Version
+File: TimeMasterApp.tar.gz
+
+Description: This is a compressed archive containing the Java version of TimeMasterApp for Linux users. It includes a script to make running the application easier.
+
+How to Use:
+
+Extract the contents of the TimeMasterApp.tar.gz file:
+
+tar -xzvf TimeMasterApp.tar.gz
+
+Navigate to the extracted directory:
+
+cd TimeMasterApp_Linux
+
+Make the run script executable:
+
+chmod +x TimeMasterApp/run.sh
+
+Run the script to start the application:
+
+./run.sh
+
+The application will start with the default user interface.
+
+Use the menu and buttons to access different features: Clock, Stopwatch, and Timer.
+
+macOS Version (No Available Version)
+Note: Currently, a native macOS version is not available. You can use the Java version with a compatible JRE or use a virtual machine/emulator for macOS.
+
+Troubleshooting
+Java Not Installed: If you get an error about Java not being installed, download and install the Java Runtime Environment from Oracle's website.
+Permissions Issues: Ensure you have the necessary permissions to execute scripts or run executables.
+Application Not Starting: Make sure all required files are in the correct locations and try restarting the application.
